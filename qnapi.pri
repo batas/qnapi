@@ -1,4 +1,7 @@
+QMAKE_DEFAULT_INCDIRS=""
+
 unix:!macx {
+
     OUTDIR = $${PWD}
     INSTALL_PREFIX = /usr
 }

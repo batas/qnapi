@@ -1,6 +1,7 @@
 TEMPLATE = subdirs
 
 CONFIG += ordered
+CONFIG+=no_gui
 
 SUBDIRS = libqnapi cli gui
 
